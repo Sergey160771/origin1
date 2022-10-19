@@ -1,6 +1,10 @@
 ﻿
 Console.WriteLine("Введите число дня недели ");
 int number = int.Parse(Console.ReadLine()!);
+if (1 > number || number > 7)
+{
+    Console.WriteLine("Такого дня недели нет ");
+}
 if (number == 1)
 {
     Console.WriteLine("Понедельник ");
