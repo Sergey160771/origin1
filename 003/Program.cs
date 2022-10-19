@@ -23,7 +23,7 @@ if (number == 5)
 }
 if (number == 6)
 {
-    Console.WriteLine("Субота ");
+    Console.WriteLine("Суббота ");
 }
 if (number == 7)
 {
